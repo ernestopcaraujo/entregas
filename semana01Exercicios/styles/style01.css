@@ -1,0 +1,34 @@
+h1 {
+    color: brown;
+    font-family: Verdana;
+    font-size: 20px;
+    background-image: url("../pic03.jpg")
+}
+title {
+    text-align: center;
+}
+body {
+    background-color: darkgrey;
+}
+p {
+    font-size: 14px;
+}
+button {
+    border-radius: 12px;
+    padding: 10px;
+    border-color: black;
+    margin-top: 20px;
+}
+.coluna {
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+.linha:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.fundo_titulo_video {
+    background-color: blue;
+}
