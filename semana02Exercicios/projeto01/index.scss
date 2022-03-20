@@ -1,0 +1,126 @@
+*{
+  margin:0;
+  padding:0;
+}
+.topo {
+  display:flex;
+  justify-content:space-between;
+  background-color: lightblue;
+}
+.anuncioprincipal {
+  display: flex;
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  img {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+.separation {
+  padding-top: 10px;
+}
+.menuitem {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.pesquisa {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  input {
+    background-color:none;
+  }
+  label {
+    color: darkblue;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  font-family:'Courier New', Courier, monospace;
+  font-size: small;
+  font-weight: bold;
+}
+.texto {
+  text-align: center;
+  margin-right: 20px;
+  &:hover {
+    background-color: lightsalmon;
+    transition: 300ms;
+  }
+}
+
+/*nav {
+  &:hover {
+    background-color: lightsalmon;
+  }
+}*/
+
+.textoform {
+  font-family: 'Courier New', Courier, monospace;
+  font-size:small;
+  font-weight: bolder;
+  text-align: center;
+}
+.centraimg {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.texto_main_event {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 80%;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 100%;
+  }
+  .listagem {
+    display: flex;
+    flex-direction: row;
+    background-color: #add8e6;
+    padding-top: 5px;
+    align-content: space-between;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .box {
+    text-align: center;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: lightblue;
+    img {
+    width: 50%;
+    height: 50%;
+    }
+  }
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightblue;
+  padding-bottom: 10px;
+}
+.ft {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+}

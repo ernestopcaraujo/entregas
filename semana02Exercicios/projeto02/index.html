@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voare Turismo</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"/>
+</head>
+<body>
+  <!--BARRA DE NAVEGAÇÃO-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="logo.png" width="188" height="68" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sua Viagem
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Praia</a></li>
+                  <li><a class="dropdown-item" href="#">Montanha & Interior</a></li>
+                  <li><a class="dropdown-item" href="#">Cultural</a></li>
+                  <li><a class="dropdown-item" href="#">Aventura</a></li>
+                  <li><a class="dropdown-item" href="#">Negócios</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Conheça a Voare</a>
+              </li>
+            </ul>
+            <form class="d-sm-flex">
+              <input class="form-control me-2" type="search" placeholder="Buscar viagens" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  <!--SHOWCASE-->
+      <section class="bg-info text-dark p-3 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex justify-content-between">
+          <img class="img-fluid w-50" src="viagemdestaque.png" alt="">
+          <div>
+            <h1 class="text-dark text-white px-3">Conheça o Pacote IT Travel</h1>
+            <p class="lead px-3 text-black">
+              A Voare tem pacotes especiais para profissionais de TI que desejam trabalhar e descansar perto das melhores paisagens.
+              Conheça nossos pacotes exclusivos para lugares incríveis e hotéis com excelente infra-estrutura para você conectar quando quiser.
+            </p>
+            <div class="px-3 text-left">
+            <button class="btn btn-warning bt-lg">Conheça Agora !</button>
+          </div>
+          </div>
+        </div>
+      </div>  
+      </section>
+  <!--PRIMEIRA LINHA LISTA DE VIAGENS-->
+      <section class="p-3">
+        <div class="container">
+          <div class="row text-center justify-content-between">
+            <div class="col-sm-3">
+              
+              <div class="card" style="width: 18rem;">
+                <img src="canoaquebrada.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Canoa Quebrada</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eligendi nihil voluptatum, magnam quas sed?</p>
+                  
+                  <!--BOTAO DE ACIONAMENTO DO MODAL-->
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Quero saber mais !
+                  </button>
+
+                  <!--MODAL-->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Canoa Quebrada</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="text-align: left;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, error reiciendis provident sint eius aspernatur possimus esse tenetur unde ea omnis asperiores corporis quas, quisquam minus!
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-primary">Comprar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+
+            </div>
+            <div class="col-sm-3">
+
+              <div class="card" style="width: 18rem;">
+                <img src="diamantina.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chapada Diamantina</h5>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error soluta consectetur amet illum tempore alias!</p>
+                  
+                  <!--BOTAO DE ACIONAMENTO DO MODAL-->
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    Quero saber mais !
+                  </button>
+
+                  <!--MODAL-->
+                  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Chapada Diamantina</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="text-align: left;">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, totam minima. Deserunt in odio molestias ex ratione sed repellendus. Deserunt aut tempora dolores. Voluptatem aut exercitationem aliquam.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-primary">Comprar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+
+              <div class="card" style="width: 18rem;">
+                <img src="praia-maragogi.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Maragogi</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae eligendi non excepturi libero ullam amet.</p>
+                  
+                  <!--BOTAO DE ACIONAMENTO DO MODAL-->
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                    Quero saber mais !
+                  </button>
+
+                  <!--MODAL-->
+                  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Maragogi</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="text-align: left;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptatum alias odio inventore quia. Repellendus, eligendi perferendis necessitatibus dicta aperiam maxime. Ullam unde, voluptates non sequi consequuntur laboriosam!
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-primary">Comprar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            
+          </div>
+        </div>    
+      </section>
+    <!--SEGUNDA LINHA LISTA DE VIAGENS-->
+      <section class="p-1">
+        <div class="container">
+          <div class="row text-center justify-content-between">
+            <div class="col-sm-3">
+              
+              <div class="card" style="width: 18rem;">
+                <img src="aventura.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Aventura Rafting</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam facilis officiis atque id ipsam asperiores.</p>
+                 
+                  <!--BOTAO DE ACIONAMENTO DO MODAL-->
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                    Quero saber mais !
+                  </button>
+
+                  <!--MODAL-->
+                  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Aventura Rafting</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="text-align: left;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptatum alias odio inventore quia. Repellendus, eligendi perferendis necessitatibus dicta aperiam maxime. Ullam unde, voluptates non sequi consequuntur laboriosam!
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-primary">Comprar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-sm-3">
+
+              <div class="card" style="width: 18rem;">
+                <img src="pdcaldas.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Poços de Caldas (MG)</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, nihil sapiente tenetur animi ex corporis!</p>
+                    
+                  <!--BOTAO DE ACIONAMENTO DO MODAL-->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                      Quero saber mais !
+                    </button>
+  
+                    <!--MODAL-->
+                    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Poços de Caldas (MG)</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body" style="text-align: left;">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptatum alias odio inventore quia. Repellendus, eligendi perferendis necessitatibus dicta aperiam maxime. Ullam unde, voluptates non sequi consequuntur laboriosam!
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary">Comprar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                </div>
+              </div>
+
+            </div>
+            <div class="col-sm-3">
+
+              <div class="card" style="width: 18rem;">
+                <img src="negocios.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">São Paulo CodeWeekend</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tenetur, facilis iure aspernatur eveniet cupiditate!</p>
+                  <!--BOTAO DE ACIONAMENTO DO MODAL-->
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                    Quero saber mais !
+                  </button>
+
+                  <!--MODAL-->
+                  <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">São Paulo CodeWeekend</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="text-align: left;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptatum alias odio inventore quia. Repellendus, eligendi perferendis necessitatibus dicta aperiam maxime. Ullam unde, voluptates non sequi consequuntur laboriosam!
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-primary">Comprar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            
+          </div>
+        </div>    
+      </section>
+  <!-- JavaScript Bundle with Popper -->
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous">
+</script>
+</body>
+</html>
