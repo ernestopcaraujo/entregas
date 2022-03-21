@@ -1,18 +1,16 @@
-var valorInicial;
+//declarcao de variaveis e obtencao de valores do usuario
+var quantosTermos = parseInt(window.prompt("Quantos termos você quer na sua P.A.\n(incluindo o valor inicial) ?"));
+var qualValorIncial = parseInt(window.prompt("Qual o valor inicial de sua P.A. ?"));
+var qualRazao = parseInt(window.prompt("Qual a razão que você deseja na sua P.A. ?"));
 
-//taxa de incremento da PA
-var raiz;
 
-valorInicial = window.prompt("Digite o valor inicial da PA");
-raiz = window.prompt("Qual o valor raiz desejado ?")
+//declaracao do array e da variavel
+//array já tem valor predfinido pelo valor de qualValorIncial
+const PA = [qualValorIncial];
+var a;
 
-//numero de termos da PA
-var nt = 10;
-
-//conjunto final de valores, variavel é um array
-resultado = []
-
-for (i=1;i<11;i++){
-    teste = teste + 1;
-    console.log();
+for(i=0;i<(quantosTermos-1);i++){
+    a = PA[i] + qualRazao;
+PA.push(a);
 }
+window.alert(PA);
