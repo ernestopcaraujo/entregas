@@ -9,6 +9,8 @@ var qualRazao = parseInt(window.prompt("Qual a razão que você deseja na sua P.
 const PA = [qualValorIncial];
 var a;
 
+//o loop for inicia com valor 0 e itera o valor de quantosTermos -1 para garantir
+//que será gerado o numero de termos totais na PA que o usuário deseja.
 for(i=0;i<(quantosTermos-1);i++){
     a = PA[i] + qualRazao;
 PA.push(a);
