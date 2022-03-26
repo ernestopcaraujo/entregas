@@ -42,7 +42,8 @@ console.log("-----Se a propriedade nome estiver grafada com a primeira letra em 
 console.log("");
 console.log(nomeEncontrado.nome);
 }
-let mostra = exec ("Florianópolis");
+
+exec ("Florianópolis");
 
 //o objetivo do uso desse outro array (cidades2) e da repetição do código
 //foi mostrar que o código funciona com ambas as grafias do nome da cidade procuardo
@@ -75,6 +76,6 @@ console.log("");
 console.log(nomeEncontrado.nome);
 }
 
-let exibe = minusculas ("florianópolis");
+minusculas ("florianópolis");
 console.log("");
 console.log("------Fim do Exercício-------");
