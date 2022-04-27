@@ -1,0 +1,23 @@
+<!--<div class="container d-flex justify-content-center">
+    <ul>
+      <li *ngFor="let item of listaComidas">
+        Refeição: {{ item.titulo }}<br>
+        Preço:{{ item.valor }}
+        <button></button>
+      </li>
+    </ul>
+ </div>-->
+<div class="container d-flex justify-content-center">
+  <div class="container d-flex justify-content-center" *ngFor="let item of listaComidas" >
+      <div class="card" style="width: 18rem;">
+      <img src={{item.endImg}} alt="">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align:center">{{item.titulo}}</h5>
+        <p class="card-text" style="text-align:justify; font-weight: bold;">{{item.descricao}}</p>
+        <p><span class="card-text" style="text-align: center;">Preço: R$ {{item.valor}}</span></p>
+        <div style="text-align: right;">
+        <a class="btn btn-warning">Pedir</a>
+      </div>
+      </div>
+    </div>
+  </div>

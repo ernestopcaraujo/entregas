@@ -1,0 +1,40 @@
+{
+    "comidas": [
+        {
+            "titulo": "Prato Feito",
+            "endImg": "../assets/pratofeito.jpg",
+            "descricao": "Arroz, Feijão, Frango, Tomate. Acompanha Salada de Frutas.",
+            "valor": 25
+        },
+        {
+            "titulo": "CheeseBurger",
+            "endImg": "../assets/cheeseburger.jpg",
+            "descricao": "Pão, queijo, hamburger, tomate, cebola, alface",
+            "valor": 15
+        },
+        {
+            "titulo": "Pastel",
+            "endImg": "../assets/pastel.jpg",
+            "descricao": "Massa recheada com queijo mussarela",
+            "valor": 5
+        }
+    ],
+    "bebidas": [
+        {
+            "titulo":"Guaraná", 
+            "endImg":"../assets/guarana.jpg",
+            "descricao":"Guarná Antártica 300ml",
+            "valor": 5
+        },
+        {   "titulo":"Suco de Laranja",
+            "endImg":"../assets/suco.jpg", 
+            "descricao":"Suco natural de laranja", 
+            "valor": 15
+        },
+        {   "titulo":"Água",
+            "endImg":"../assets/agua.jpg", 
+            "descricao":"Água mineral 600ml", 
+            "valor": 3
+        }
+    ]
+}

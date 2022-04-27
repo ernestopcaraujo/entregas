@@ -1,0 +1,33 @@
+<!--Crie um uma página html contendo:
+-- 2 inputs do tipo number;
+-- 1 select com as options Somar, Subtrair, Dividir, Multiplicar
+-- 1 button com o texto Calcular
+Crie uma função JavaScript para efetuar as operações:
+-- Deve ser obtido os valores dos inputs
+-- Deve ser obtida a operação desejada de acordo com o valor do select
+-- Deve ser adicionado um elemento do tipo <p> via JavaScript para exibir o resultado do cálculo
+Adicione o evento de click no botão calcular-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M1S06-Ex2</title>
+</head>
+<body>
+    <h1 id="titulo">Calculadora DEVinHouse NDD</h1>
+    <input type="text" id="num01">Digite o primeiro numero<br>
+    <input type="text" id="num02">Digite o segundo numero<br>
+    <select id="operacao">
+        <option value="+">Somar</option>
+        <option value="-">Subtrair</option>
+        <option value="*">Multiplicar</option>
+        <option value="/">Dividir</option>
+        <option value="**">Potencia</option>
+    </select>
+    <button onclick="calcular()">Calcular</button>
+    <p id="resultado"></p>
+    <script src="calcular.js"></script>
+</body>
+</html>
