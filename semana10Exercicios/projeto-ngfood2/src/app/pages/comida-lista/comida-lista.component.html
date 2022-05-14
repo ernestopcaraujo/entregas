@@ -1,0 +1,7 @@
+<main class="container mt-5">
+    
+      <!-- <button (click)="adicionarBebidas()">Adicionar Bebida</button> -->
+        <app-item-cardapio  *ngFor="let item of listaComidas" [item]="item" 
+        (adicionaAoPedido)="adicionarComida($event)"></app-item-cardapio>
+        
+  </main>
