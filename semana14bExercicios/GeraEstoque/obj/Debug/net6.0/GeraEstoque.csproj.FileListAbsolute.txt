@@ -1,0 +1,15 @@
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana14bExercicios\GeraEstoque\bin\Debug\net6.0\GeraEstoque.exe
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana14bExercicios\GeraEstoque\bin\Debug\net6.0\GeraEstoque.deps.json
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana14bExercicios\GeraEstoque\bin\Debug\net6.0\GeraEstoque.runtimeconfig.json
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana14bExercicios\GeraEstoque\bin\Debug\net6.0\GeraEstoque.dll
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana14bExercicios\GeraEstoque\bin\Debug\net6.0\GeraEstoque.pdb
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana14bExercicios\GeraEstoque\obj\Debug\net6.0\GeraEstoque.csproj.AssemblyReference.cache
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana14bExercicios\GeraEstoque\obj\Debug\net6.0\GeraEstoque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana14bExercicios\GeraEstoque\obj\Debug\net6.0\GeraEstoque.AssemblyInfoInputs.cache
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana14bExercicios\GeraEstoque\obj\Debug\net6.0\GeraEstoque.AssemblyInfo.cs
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana14bExercicios\GeraEstoque\obj\Debug\net6.0\GeraEstoque.csproj.CoreCompileInputs.cache
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana14bExercicios\GeraEstoque\obj\Debug\net6.0\GeraEstoque.dll
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana14bExercicios\GeraEstoque\obj\Debug\net6.0\refint\GeraEstoque.dll
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana14bExercicios\GeraEstoque\obj\Debug\net6.0\GeraEstoque.pdb
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana14bExercicios\GeraEstoque\obj\Debug\net6.0\GeraEstoque.genruntimeconfig.cache
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana14bExercicios\GeraEstoque\obj\Debug\net6.0\ref\GeraEstoque.dll
