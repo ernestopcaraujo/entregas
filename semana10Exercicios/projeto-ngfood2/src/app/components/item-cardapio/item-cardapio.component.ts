@@ -19,7 +19,7 @@ export class ItemCardapioComponent /*implements OnInit*/ {
   // }
 
   adicionarAoPedido(){
-    this.adicionaAoPedido.emit();
+    this.adicionaAoPedido.emit(this.item);
   }
 
 }

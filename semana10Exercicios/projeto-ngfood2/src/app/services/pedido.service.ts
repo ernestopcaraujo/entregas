@@ -17,7 +17,7 @@ export class PedidoService {
 
   adicionarItemPedido(item:IComida | IBebida){
     this.itensPedidoLista.push(item);
-    console.log("LISTA DO PEDIDO: "+this.itensPedidoLista);
+    console.log("LISTA DO PEDIDO: ",this.itensPedidoLista);
   };
 
   limparPedido(){
