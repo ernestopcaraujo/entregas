@@ -11,7 +11,7 @@ public static class MenuScreen
     {
         switch (operacao)
         {
-            case 1: CriarProdutosScreen.Iniciar(); MenuScreen.Iniciar(); break;
+            case 1: CriarProdutosScreen.Iniciar(); break;
             case 2: Console.Clear(); Environment.Exit(0); break;
             case 3: Console.Clear(); Environment.Exit(0); break;
             case 4: Console.Clear(); Environment.Exit(0); break;
