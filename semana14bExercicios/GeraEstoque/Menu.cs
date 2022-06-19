@@ -1,19 +1,4 @@
-// Iremos implementar apenas o cadastramento do produto nesta semana. Imprima no console a mensagem “Seja bem vindo” e, em seguida, imprima um menu com as seguintes opções:
-
-// ```bash
-// Seja bem vindo ao GeraEstoque 1.0
-// ----------------------------------------
-// 1  Cadastrar produto
-// 2  Consultar produto
-// 3  Modificar produto
-// 4  Excluir produto
-// 0  Sair
-
-// Digite a opção: 
-// ```
-
-
-
+using System;
 namespace GeraEstoque;
 
 public static class Menu {
@@ -35,7 +20,7 @@ public static class Menu {
         DrawLine();
         // DrawLeftLine();
         Console.SetCursorPosition(2,3);
-        Console.WriteLine("Digite o número da opçao desejada:");
+        Console.WriteLine("Digite o número da operação desejada:");
         Console.WriteLine();
         Console.SetCursorPosition(2,5);
         Console.WriteLine("1  Cadastrar produto");
@@ -48,8 +33,11 @@ public static class Menu {
         Console.SetCursorPosition(2,9);
         Console.WriteLine("0  Sair");
         Console.SetCursorPosition(2,11);
-        Console.Write("Opçao Digitada: ");
-        var opcao = Console.Read();
+        Console.WriteLine("Operação Digitada: ");
         DrawLine();
+        Console.SetCursorPosition(21,11);
+        var operacao = short.Parse(Console.ReadLine());
+        Operacoes.Opcoes(operacao);
     }
+
 }
