@@ -1,11 +1,12 @@
 ﻿using System;
-
+using GeraEstoque.Screens;
 namespace GeraEstoque;
 
-class Program {
+class Program
+{
 
     static void Main(string[] args)
     {
-          Menu.Opcoes();
+        MenuScreen.Iniciar();
     }
 }
