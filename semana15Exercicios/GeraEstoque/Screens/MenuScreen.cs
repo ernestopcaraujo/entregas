@@ -61,5 +61,4 @@ public static class MenuScreen
         var operacao = short.Parse(Console.ReadLine());
         OpcoesLista(operacao);
     }
-
 }
