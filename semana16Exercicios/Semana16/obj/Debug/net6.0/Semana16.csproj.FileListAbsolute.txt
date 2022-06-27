@@ -1,0 +1,15 @@
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana16Exercicios\Semana16\bin\Debug\net6.0\Semana16.exe
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana16Exercicios\Semana16\bin\Debug\net6.0\Semana16.deps.json
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana16Exercicios\Semana16\bin\Debug\net6.0\Semana16.runtimeconfig.json
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana16Exercicios\Semana16\bin\Debug\net6.0\Semana16.dll
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana16Exercicios\Semana16\bin\Debug\net6.0\Semana16.pdb
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana16Exercicios\Semana16\obj\Debug\net6.0\Semana16.csproj.AssemblyReference.cache
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana16Exercicios\Semana16\obj\Debug\net6.0\Semana16.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana16Exercicios\Semana16\obj\Debug\net6.0\Semana16.AssemblyInfoInputs.cache
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana16Exercicios\Semana16\obj\Debug\net6.0\Semana16.AssemblyInfo.cs
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana16Exercicios\Semana16\obj\Debug\net6.0\Semana16.csproj.CoreCompileInputs.cache
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana16Exercicios\Semana16\obj\Debug\net6.0\Semana16.dll
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana16Exercicios\Semana16\obj\Debug\net6.0\refint\Semana16.dll
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana16Exercicios\Semana16\obj\Debug\net6.0\Semana16.pdb
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana16Exercicios\Semana16\obj\Debug\net6.0\Semana16.genruntimeconfig.cache
+C:\Users\SAMSUNGI3\Desktop\vscodedev\entregas\semana16Exercicios\Semana16\obj\Debug\net6.0\ref\Semana16.dll
