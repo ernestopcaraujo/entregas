@@ -1,24 +1,14 @@
+using GeraEstoque.Repositories;
 namespace GeraEstoque.Screens;
 public static class MenuScreen
 {
 
-    public static void Iniciar()
+    public static void Iniciar(ProdutoRepository repository)
     {
-        OpcoesMenu();
+        OpcoesMenu(repository);
     }
 
-    public static void OpcoesLista(short operacao)
-    {
-        switch (operacao)
-        {
-            case 1: CriarProdutosScreen.Iniciar(); break;
-            case 2: Console.Clear(); Environment.Exit(0); break;
-            case 3: Console.Clear(); Environment.Exit(0); break;
-            case 4: Console.Clear(); Environment.Exit(0); break;
-            case 0: Console.Clear(); Environment.Exit(0); break;
-            default: Environment.Exit(0); break;
-        }
-    }
+
 
     public static void BgColor()
     {
@@ -34,7 +24,7 @@ public static class MenuScreen
         Console.WriteLine();
     }
 
-    public static void OpcoesMenu()
+    public static void OpcoesMenu(ProdutoRepository repository)
     {
         Console.Clear();
         Console.WriteLine();
@@ -53,12 +43,14 @@ public static class MenuScreen
         Console.SetCursorPosition(2, 8);
         Console.WriteLine("4  Excluir produto");
         Console.SetCursorPosition(2, 9);
+         Console.WriteLine("5  Listar produto");
+        Console.SetCursorPosition(2, 10);
         Console.WriteLine("0  Sair");
         Console.SetCursorPosition(2, 11);
         Console.WriteLine("Operação Digitada: ");
         DrawLine();
         Console.SetCursorPosition(21, 11);
         var operacao = short.Parse(Console.ReadLine());
-        OpcoesLista(operacao);
+        OpLista.OpcoesLista(repository, operacao);
     }
 }

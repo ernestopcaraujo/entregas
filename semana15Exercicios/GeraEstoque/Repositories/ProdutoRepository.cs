@@ -1,5 +1,6 @@
-namespace GeraEstoque.Repositories;
+
 using GeraEstoque.Models;
+namespace GeraEstoque.Repositories;
 
 public class ProdutoRepository {
 

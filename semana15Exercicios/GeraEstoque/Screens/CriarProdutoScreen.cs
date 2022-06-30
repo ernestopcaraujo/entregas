@@ -1,9 +1,11 @@
-using GeraEstoque;
+
+using GeraEstoque.Models;
+using GeraEstoque.Repositories;
 namespace GeraEstoque.Screens;
 
 public static class CriarProdutosScreen {
 
-    public static void Iniciar()
+    public static void Iniciar(ProdutoRepository repository)
     {
         Console.WriteLine();
         Console.Clear();
@@ -39,7 +41,12 @@ public static class CriarProdutosScreen {
         Console.WriteLine();
         MenuScreen.DrawLine();
         Console.ReadKey();
-        MenuScreen.OpcoesMenu();
+        MenuScreen.OpcoesMenu(repository);
+        
+        var produto = new Produto (nomeProduto, quantidadeProduto, precoCompra, precoVenda);
+        System.Console.WriteLine("Produto cadastraro com sucesso!");
+        repository.Produtos.Add(produto);
+        Console.ReadLine();
     }
     
 }

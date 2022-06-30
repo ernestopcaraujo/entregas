@@ -1,5 +1,6 @@
 ﻿using System;
 using GeraEstoque.Screens;
+using GeraEstoque.Repositories;
 namespace GeraEstoque;
 
 class Program
@@ -7,6 +8,7 @@ class Program
 
     static void Main(string[] args)
     {
-        MenuScreen.Iniciar();
+        var repository = new ProdutoRepository();
+        MenuScreen.Iniciar(repository);
     }
 }
