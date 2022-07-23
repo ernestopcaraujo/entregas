@@ -1,7 +1,8 @@
 
 Bancos de Dados:
-Constituem-se de uma coleção organizada de dados ou informações de forma estruturada e
-comumente armazenados eletronicamente em computadores.
+Constituem-se de uma coleção organizada de dados ou informações de forma estruturada 
+e que no contexto da Tecnologia da Informação sãocomumente armazenados 
+eletronicamente em computadores.
 
 Dados:
 De maneira resumida, dados são observações específicas ou resultados de uma medição 
