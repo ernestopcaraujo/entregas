@@ -1,0 +1,20 @@
+
+Bancos de Dados:
+Constituem-se de uma coleção organizada de dados ou informações de forma estruturada e
+comumente armazenados eletronicamente em computadores.
+
+Dados:
+De maneira resumida, dados são observações específicas ou resultados de uma medição 
+que não conseguem, por si só, transmitir uma mensagem. São valores atribuídos a algo,
+sendo que estes valores não precisam ser exclusivamente números. Podem ser mesurados
+através de instrumentos mas também atribuídos de forma arbitrária.
+
+
+Informações:
+A informação é a ordenação e organização dos dados de forma a transmitir significado e 
+compreensão dentro de um determinado contexto. 
+Seria o conjunto ou consolidação dos dados de forma a fundamentar o conhecimento.
+
+
+
+
