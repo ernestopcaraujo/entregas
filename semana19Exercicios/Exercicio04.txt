@@ -1,0 +1,9 @@
+ENTIDADE: cliente1
+ATRIBUTOS: id, nome_completo, primeiro_nome, sobrenome, cpf, data_nascimento, cadastrado_em, atualizado_em
+CHAVE PRIMÁRIA: id
+CHAVE ESTRANGEIRA: nao possui
+
+ENTIDADE: conta1
+ATRIBUTOS: id, cliente_id, tipo_id, categoria_id, valor, atualizado_em, cadastrado_em
+CHAVE PRIMÁRIA: id
+CHAVE ESTRANGEIRA: cliente_id
