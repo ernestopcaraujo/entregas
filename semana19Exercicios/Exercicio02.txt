@@ -1,0 +1,55 @@
+Tipos de Bancos de Dados
+
+1. Relacionais
+São os mais comuns atualmente, sendo que o dado fica na coluna, 
+enquanto a sua descrição fica em linhas e atributos.
+
+2. Não Relacionais
+Utilizamos o não-relacional toda vez que precisamos trabalhar com dados 
+que não podem ser inseridos em formato tabela, como imagens, vídeos e gráficos. 
+Ele tem uma alta performance e por essa razão é muito valorizado no mercado, 
+todos os registros são feitos em um mesmo lugar.
+
+3. Orientados a Ojetos
+Nesse tipo de banco, é utilizada a estrutura orientada a objetos. Isso quer 
+dizer que as informações são organizadas em blocos de informações com identificadores.
+
+4. Autonomos
+Esse é um tipo de banco de dados gerenciado por machine learning, na nuvem. Desse modo, 
+os backups, segurança, consultas e demais tarefas rotineiras ficam sob responsabilidade 
+da inteligência artificial.
+
+5. OLTP
+O Banco de dados OLTP realiza o processamento de dados em transações online. 
+Esse tipo de armazenamento é ideal para lidar com informações de organizações, 
+como pagamentos e gerenciamento de pedidos. 
+
+6. Distribuídos
+Um banco de dados distribuído é composto por uma rede de nós, em que cada nó é 
+um computador em um local diferente. Para se comunicarem, as máquinas conectadas 
+ao sistema utilizam a rede. Como os dados estão distribuídos, no caso de algum
+problema em uma máquina eles podem ser recuperados por outra máquina da rede
+de nós.
+
+7. JSON
+Trata-se de uma base de dados que armazena e realiza consultas a documentos JSON.
+O JSON é um elemento textual, mas também pode receber outros valores, 
+como um BLOB, usado para armazenar imagens. 
+Para gerenciar e manipular esse banco podem ser usadas tabelas.
+
+8.Data warehouses
+Data warehouses permitem a integração de dados de diferentes fontes. 
+Além de manter os dados atuais, também é possível consultar um histórico.
+
+9. Gráficos
+Os bancos de dados gráficos armazenam estruturas de dados complexas, 
+que seriam incompatíveis em uma base tradicional. 
+Esse tipo de sistema é geralmente usado em redes sociais, pois é ideal para 
+lidar com dados altamente interconectados. Desse modo, nesse tipo de base de dados, 
+as informações estão interligadas por gráficos de conexão, 
+onde a informação importa mais que a estrutura.
+
+10. Codigo Aberto
+Esse tipo de banco se trata de qualquer base de dados que pode ser distribuída e reutilizada.
+Essa característica fornece aos desenvolvedores as condições necessárias para a criação de 
+novas tecnologias, que utilizam o código aberto do sistema como molde.
