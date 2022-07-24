@@ -1,0 +1,26 @@
+CREATE DATABASE Empresa;
+
+CREATE TABLE Cargos (
+  id_cargo INT PRIMARY KEY IDENTITY(1,1),
+  nome_cargo varchar (25) NOT NULL,
+);
+  
+CREATE TABLE Gestores(
+  id_gestor INT PRIMARY KEY IDENTITY (1,1),
+  nome_gestor VARCHAR(200)
+  );
+
+CREATE TABLE Empregados (
+  id_emp INT PRIMARY KEY IDENTITY (1,1),
+  nome_emp VARCHAR(200) NOT NULL,
+  endereco VARCHAR(200) NOT NULL,
+  idade INT NOT NULL,
+  id_cargo INT,
+  id_gestor INT,
+  CONSTRAINT fK_Empregados_Cargos FOREIGN KEY (id_cargo) REFERENCES Cargos (id_cargo),
+  CONSTRAINT fK_Empregados_Gestores FOREIGN KEY (id_gestor) REFERENCES Gestores (id_gestor)
+   );
+   
+
+
+
