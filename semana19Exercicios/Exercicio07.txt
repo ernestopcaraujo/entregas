@@ -1,0 +1,5 @@
+ALTER TABLE Empregados ADD setor VARCHAR(30);
+
+UPDATE Empregados SET setor = 'Desenvolvimento de Software';
+
+-- Propositalmente todos os campos foram atualizados com o mesmo dado.
