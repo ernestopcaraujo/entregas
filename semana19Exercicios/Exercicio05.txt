@@ -20,7 +20,3 @@ CREATE TABLE Empregados (
   CONSTRAINT fK_Empregados_Cargos FOREIGN KEY (id_cargo) REFERENCES Cargos (id_cargo),
   CONSTRAINT fK_Empregados_Gestores FOREIGN KEY (id_gestor) REFERENCES Gestores (id_gestor)
    );
-   
-
-
-

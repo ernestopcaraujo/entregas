@@ -1,0 +1,32 @@
+INSERT INTO Cargos (nome_cargo) VALUES ('CEO');
+INSERT INTO Cargos (nome_cargo) VALUES ('Diretor Administrativo');
+INSERT INTO Cargos (nome_cargo) VALUES ('Diretor Financeiro');
+INSERT INTO Cargos (nome_cargo) VALUES ('Supervisor');
+INSERT INTO Cargos (nome_cargo) VALUES ('Gerente Administrativo');
+INSERT INTO Cargos (nome_cargo) VALUES ('Gerente Comercial');
+INSERT INTO Cargos (nome_cargo) VALUES ('Desenvolvedor Full-Stack');
+INSERT INTO Cargos (nome_cargo) VALUES ('Analista de Dados');
+INSERT INTO Cargos (nome_cargo) VALUES ('Scrum Master');
+INSERT INTO Cargos (nome_cargo) VALUES ('Consultor de Vendas');
+
+INSERT INTO Gestores (nome_gestor) VALUES ('Dan Britt');
+INSERT INTO Gestores (nome_gestor) VALUES ('Alana Rosberg');
+INSERT INTO Gestores (nome_gestor) VALUES ('Malcom Roberts');
+INSERT INTO Gestores (nome_gestor) VALUES ('Nigel Farenbourgh');
+INSERT INTO Gestores (nome_gestor) VALUES ('Mark Solberg');
+INSERT INTO Gestores (nome_gestor) VALUES ('Carl Pattern');
+INSERT INTO Gestores (nome_gestor) VALUES ('Keith Nardine');
+INSERT INTO Gestores (nome_gestor) VALUES ('Roberta Giggio');
+INSERT INTO Gestores (nome_gestor) VALUES ('Paul Hills');
+INSERT INTO Gestores (nome_gestor) VALUES ('Frank DeBoer');
+
+INSERT INTO Empregados (nome_emp, endereco, idade, id_cargo, id_gestor) VALUES ('Mick Fleetwood', 'Rua A', 45,1,1);
+INSERT INTO Empregados (nome_emp, endereco, idade, id_cargo, id_gestor) VALUES ('Paul Nortfield', 'Rua B', 35,2,1);
+INSERT INTO Empregados (nome_emp, endereco, idade, id_cargo, id_gestor) VALUES ('Terry Brown', 'Rua C', 39,3,1);
+INSERT INTO Empregados (nome_emp, endereco, idade, id_cargo, id_gestor) VALUES ('Nick Razkulinecz', 'Rua D', 38,4,1);
+INSERT INTO Empregados (nome_emp, endereco, idade, id_cargo, id_gestor) VALUES ('Butch Vig', 'Rua E', 43,5,1);
+INSERT INTO Empregados (nome_emp, endereco, idade, id_cargo, id_gestor) VALUES ('Les Claypool', 'Rua F', 37,6,1);
+INSERT INTO Empregados (nome_emp, endereco, idade, id_cargo, id_gestor) VALUES ('Rick Wakeman', 'Rua G', 28,7,1);
+INSERT INTO Empregados (nome_emp, endereco, idade, id_cargo, id_gestor) VALUES ('David Paich', 'Rua H', 47,8,1);
+INSERT INTO Empregados (nome_emp, endereco, idade, id_cargo, id_gestor) VALUES ('Stuart Ham', 'Rua K', 29,9,1);
+INSERT INTO Empregados (nome_emp, endereco, idade, id_cargo, id_gestor) VALUES ('Steve Lukater', 'Rua M', 39,10,1);
