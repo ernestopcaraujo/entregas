@@ -1,0 +1,12 @@
+ALTER TABLE Empregados ADD cor_favorita VARCHAR(15);
+
+UPDATE Empregados SET cor_favorita = 'Ciano' WHERE id_emp = 1;
+UPDATE Empregados SET cor_favorita = 'Magenta' WHERE id_emp = 2;
+UPDATE Empregados SET cor_favorita = 'Amarelo' WHERE id_emp = 3;
+UPDATE Empregados SET cor_favorita = 'Preto' WHERE id_emp = 4;
+UPDATE Empregados SET cor_favorita = 'Verde' WHERE id_emp = 5;
+UPDATE Empregados SET cor_favorita = 'Azul' WHERE id_emp = 6;
+UPDATE Empregados SET cor_favorita = 'Vermelho' WHERE id_emp = 7;
+UPDATE Empregados SET cor_favorita = 'Rosa' WHERE id_emp = 8;
+UPDATE Empregados SET cor_favorita = 'Laranja' WHERE id_emp = 9;
+UPDATE Empregados SET cor_favorita = 'Roxo' WHERE id_emp = 10;
