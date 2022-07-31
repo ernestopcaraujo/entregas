@@ -1,0 +1,9 @@
+CREATE TABLE Carro (
+
+    id_carro INT PRIMARY KEY IDENTITY (1,1),
+    placa VARCHAR (7) NOT NULL,
+    modelo VARCHAR (20) NOT NULL,
+    combustivel VARCHAR (8) NOT NULL,
+    condutor VARCHAR (200) NOT NULL,
+    revisadoEM DATE
+);
