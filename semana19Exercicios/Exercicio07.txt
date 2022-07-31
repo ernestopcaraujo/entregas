@@ -1,5 +1,12 @@
 ALTER TABLE Empregados ADD setor VARCHAR(30);
 
-UPDATE Empregados SET setor = 'Desenvolvimento de Software';
-
--- Propositalmente todos os campos foram atualizados com o mesmo dado.
+UPDATE Empregados SET setor = 'Desenvolvimento de Software' WHERE id_emp = 1;
+UPDATE Empregados SET setor = 'Engenharia de Software' WHERE id_emp = 2;
+UPDATE Empregados SET setor = 'Infra-estrutura' WHERE id_emp = 3;
+UPDATE Empregados SET setor = 'Atendimento ao Cliente' WHERE id_emp = 4;
+UPDATE Empregados SET setor = 'Banco de Dados' WHERE id_emp = 5;
+UPDATE Empregados SET setor = 'Controle de Operações' WHERE id_emp = 6;
+UPDATE Empregados SET setor = 'Gerenciamento de Projetos' WHERE id_emp = 7;
+UPDATE Empregados SET setor = 'Desenvolvimento Interno' WHERE id_emp = 8;
+UPDATE Empregados SET setor = 'Desenvolvimento Interno' WHERE id_emp = 9;
+UPDATE Empregados SET setor = 'Desenvolvimento Interno' WHERE id_emp = 10;
