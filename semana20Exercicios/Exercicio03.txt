@@ -1,0 +1,2 @@
+SELECT nomeCompleto AS 'Nome Completo', FORMAT(dataNascimento, 'd', 'pt-br') AS 'Data de Nascimento', DATEDIFF(yy, dataNascimento, GETDATE()) AS 'Idade' FROM cliente
+WHERE dataNascimento = (SELECT MIN(dataNascimento) FROM cliente);
