@@ -1,0 +1,7 @@
+SELECT
+categoria.nomeCategoria AS 'Nome Categoria', categoria.idcategoria 'ID Categoria', COUNT (idcategoria) AS 'Quantidade'
+FROM conta
+INNER JOIN categoria
+ON conta.categoria_id = categoria.idcategoria
+WHERE categoria.idcategoria=3
+GROUP BY idcategoria, nomecategoria;
