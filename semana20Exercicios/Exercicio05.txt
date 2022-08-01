@@ -1,0 +1,9 @@
+SELECT 
+contaTipo.nome AS 'Tipo de Conta', 
+contaTipo.idcontatipo AS 'ID do Tipo de Conta',
+COUNT(contaTipo.idContaTipo) AS 'Total de Contas'
+FROM conta
+INNER JOIN contaTipo
+ON conta.tipo_id = contaTipo.idcontatipo
+WHERE idcontatipo = 1
+GROUP BY contaTipo.nome, contaTipo.idContaTipo;
