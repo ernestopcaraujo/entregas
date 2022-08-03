@@ -1,0 +1,3 @@
+SELECT COUNT (status_id) AS 'Transações Falhas' 
+FROM movimento 
+WHERE status_id = 3;
