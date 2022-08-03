@@ -3,6 +3,5 @@ conta.idConta AS 'Codigo do Cliente',
 cliente.nomeCompleto AS 'Nome do Cliente', 
 FORMAT(conta.valor,'c','pt-br') AS 'Saldo Atual' 
 FROM cliente
-INNER JOIN conta
-ON cliente.idCliente = conta.cliente_id
+INNER JOIN conta ON cliente.idCliente = conta.cliente_id
 WHERE valor = (SELECT MAX(valor) FROM conta);
