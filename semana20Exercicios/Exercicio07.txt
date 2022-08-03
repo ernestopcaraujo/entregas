@@ -1,0 +1,4 @@
+SELECT contaServicos.nome AS 'Nome Serviço', categoria.nomeCategoria AS 'Nome Categoria'
+FROM contaServicos
+INNER JOIN categoria ON categoria.idcategoria = contaServicos.categoria_id
+WHERE idCategoria = 2;
