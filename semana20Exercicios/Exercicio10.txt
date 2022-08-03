@@ -1,0 +1,2 @@
+SELECT movimentoTipo.nomeTipo as 'Tipos de Movimento Disponíveis'
+FROM movimentoTipo;
