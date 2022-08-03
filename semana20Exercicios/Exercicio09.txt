@@ -1,0 +1,5 @@
+SELECT TOP 1 movimentoTipo.nomeTipo AS 'Nome do Movimento', COUNT(movimento.tipo_id) AS 'Numero de Movimentos'
+FROM movimentoTipo
+INNER JOIN movimento ON movimentoTipo.idMovimentoTipo = movimento.tipo_id
+GROUP BY movimento.tipo_id, movimentoTipo.nometipo
+ORDER BY 'Numero de Movimentos' DESC;
