@@ -109,3 +109,23 @@ https://dummy.restapiexample.com/api/v1/delete/2
 	"data": "2",
 	"message": "Successfully! Record has been deleted"
 }
+
+
+Usando a The Bored API (http://www.boredapi.com/)
+
+Testando apenas um tipo de requisiçao (GET)
+com 2 query parameters
+
+http://www.boredapi.com/api/activity?minaccessibility=0&maxacessibility=0.5
+
+Retorno:
+
+{
+	"activity": "Teach your dog a new trick",
+	"type": "relaxation",
+	"participants": 1,
+	"price": 0.05,
+	"link": "",
+	"key": "1668223",
+	"accessibility": 0.15
+}
