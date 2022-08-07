@@ -1,0 +1,111 @@
+Consumo da API "Dummy API" (https://dummy.restapiexample.com/)
+Realizado através do Insomnia
+
+Requisição Tipo GET
+Rota retorna todos os registros
+https://dummy.restapiexample.com/api/v1/employees
+
+{
+	"status": "success",
+	"data": [
+		{
+			"id": 1,
+			"employee_name": "Tiger Nixon",
+			"employee_salary": 320800,
+			"employee_age": 61,
+			"profile_image": ""
+		},
+		{
+			"id": 2,
+			"employee_name": "Garrett Winters",
+			"employee_salary": 170750,
+			"employee_age": 63,
+			"profile_image": ""
+		},
+		{
+			"id": 3,
+			"employee_name": "Ashton Cox",
+			"employee_salary": 86000,
+			"employee_age": 66,
+			"profile_image": ""
+		},
+		{
+			"id": 4,
+			"employee_name": "Cedric Kelly",
+			"employee_salary": 433060,
+			"employee_age": 22,
+			"profile_image": ""
+		}
+	],
+	"message": "Successfully! All records has been fetched."
+}
+
+Requisição Tipo GET
+Rota retorna todos um registro específico por ID
+No exemplo, id = 4
+https://dummy.restapiexample.com/api/v1/employee/4
+
+{
+	"status": "success",
+	"data": {
+		"id": 4,
+		"employee_name": "Cedric Kelly",
+		"employee_salary": 433060,
+		"employee_age": 22,
+		"profile_image": ""
+	},
+	"message": "Successfully! Record has been fetched."
+}
+
+Requisição Tipo POST
+Rota cria um novo registro na API
+https://dummy.restapiexample.com/api/v1/create
+
+Body (tipo JSON)
+{"name":"novo","salary":"10.000","age":"49"}
+
+Retorno
+{
+	"status": "success",
+	"data": {
+		"name": "novo",
+		"salary": "10.000",
+		"age": "49",
+		"id": 2099
+	},
+	"message": "Successfully! Record has been added."
+}
+
+Requisição Tipo PUT
+Rota atualiza um registro na API
+https://dummy.restapiexample.com/api/v1/update/1
+
+Body (tipo JSON, passando um novo valor para "employee_age", que vai mudar para 63)
+{
+		"employee_name": "Tiger Nixon",
+		"employee_salary": 320800,
+		"employee_age": 63,
+		"profile_image": ""
+	}
+
+Retorno:
+{
+	"status": "success",
+	"data": {
+		"employee_name": "Tiger Nixon",
+		"employee_salary": 320800,
+		"employee_age": 63, 
+		"profile_image": null
+	},
+	"message": "Successfully! Record has been updated."
+}
+
+Requisição Tipo DELETE
+Rota apaga um registro na API
+https://dummy.restapiexample.com/api/v1/delete/2
+
+{
+	"status": "success",
+	"data": "2",
+	"message": "Successfully! Record has been deleted"
+}
