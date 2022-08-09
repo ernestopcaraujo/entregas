@@ -1,0 +1,37 @@
+2. Criação dos Modelos
+
+A função das classes "modelos" é definir as propriedades e métodos das classes
+a serem criadas.
+
+- Criar pasta Models, onde estarão as classes "modelo"
+- Criar as classes "modelo" Artista, Musica e Album com suas respectivas propriedades.
+- Observar o relacionamento entre essas classes para a criação da vinculação entre elas.
+    Por exmemplo: Um música pode estar
+    em um album que vai pertencer a um artista. Também pode-se pensar que um
+    artista terá diversos albuns que terão diversas músicas. Essa diferença de 
+    abordagerm poderá leavar a diferentes formas de construção dos repositórios da API.
+- Fazer a vinculação entre as classes, por exemplo: Na classe Album há uma propriedade Artista
+    (tipo Artista) referenciando justamente a classe de Artistas que foi criada. Assim como a classe
+    Musica também tem as propriedades Artista e Album.
+- Na criação das propriedades de classes avaliar também se alguma propriedade poderá ser nula ou
+    não, tal como uma música de um artista que não pertencerá a nenhum album.
+
+3. Criação do Controllers (parte 01)
+
+A função do controller é "operar" as rotas e requisições das classes "modelos".
+
+- A pasta Controllers já está criada.
+- Renomear o controller de exemplo
+- Uma boa pratica é usar letras minúsculas ao customizar os nomes das rotas
+
+4. Criação dos Respositórios
+
+A função dos repositórios é assumir a responsabilidade de fazer as operações das requisições.
+
+5. Criação de Controllers (parte 02)
+
+
+
+
+>>faltou o internal set na propriedade ID da classe Musica.
+>>o return do método Atualizar no repositório dos artistas tem que ser artistaExistente

@@ -1,0 +1,36 @@
+Resolva os seguintes exercícios:
+1) Defina com suas palavras o significado de API.
+API significa Interface de Programação de Aplicações tem a função de 
+integrar a comunicação entre sistemas.
+
+2) Explique com suas palavras o funcionamento do protocolo HTTP na web.
+ O cliente inicia uma solicitação ao servidor web, digitando-a na barra de endereço do navegador. 
+ Este, por sua vez, responde inicialmente com um código de status, que consiste em três dígitos. 
+ Ele contém a informação se a solicitação pode ser respondida com sucesso ou não.
+ Em caso de sucesso, o servidor responde ao cliente com a informação solicitada.
+
+
+3) Quantas e quais são as categorias dos Status Codes no protocolo HTTP.
+São 4 Categorias:
+Informal (códigos 100)
+Success (códigos 200)
+Redirection (códigos 300)
+Client Errors (códigos 400)
+
+4) Defina qual a diferença entre HTTP e HTTP?
+A diferença entre eles é o nível de segurança do tráfego das informações.
+O HTTPS é a versão masi segura do HTTP, onde foram adicionados alguns princípios de segurança, 
+como confidencialidade, integridade e autenticação. Através da adicção do SSL (Secure Sockets Layer) ou, 
+seu sucessor, o TLS (Transport Layer Security). TLS ou SSL são camadas de segurança que 
+fornecem confidencialidade e integridade. A base do TLS/SSL e dos certificados da Internet
+é a criptografia.
+
+
+5) Defina com suas palavras o que REST e uma API RESTful
+REST é a sigla em inglês para "Representational State Transfer", 
+que significa transferência de estado representacional. 
+Criada pelo cientista de computação Roy Fielding, é por sua definição um conjunto 
+de princípios, definições e restrições de arquitetura necessários para a criação de um projeto 
+com interfaces bem definidas.
+
+Uma API RESTful é uma API que segue esses padrões.
