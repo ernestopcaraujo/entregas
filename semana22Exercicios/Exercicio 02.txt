@@ -1,0 +1,10 @@
+Como vantagens podemos citar a possibilidade de o programador
+mapear seus objetos e os dados que representam para um 
+banco de dados sem a necessidade de escrever diretamente
+código em linguagem SQL, ganhando assim produtividade.
+Há também ganho de segurança pois o ORM fornece proteção
+à camada de acesso a dados.
+Porém, em situações onde os ambientes sejam muito carregados
+pode haver queda de performance em virtude dessa camada extra
+no sistema, além da necessidade de uma curva de aprendizado
+para compreender o funcionamento do ORM.
