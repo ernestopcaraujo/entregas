@@ -1,0 +1,30 @@
+1) Explique com suas palavras qual problema a injeção de dependência resolve.
+Injeção de Dependências é um tipo de Inversão de Controle e significa que uma 
+classe não mais é responsável por criar ou buscar os objetos dos quais depende.
+Isso serve para desacoplar as classes, evitando dependência direta entre elas.
+
+2) Quais são os tipos de injeção de dependência?
+Injeção via construtor, que é o mais comum, via getter ou setter, via implementação
+de interface DI, por parâmetro do método (introduzido pelo .NET), ou pelo
+padrão Factory/Service Locator.
+
+3) Quais são e qual o funcionamento de cada um dos 3 tipos de ciclos de vida que 
+podem ser configurado para uma dependência dentro do .NET?
+
+Transient: serviços são criados toda vez que há injeção ou requisição. 
+É altamente recomendado por não precisar se preocupar com multi-threading e falhas de memória;
+Scope: a criação por escopo cria um novo escopo de serviço separado a cada requisição web. 
+Não é recomendado o uso do serviço em aplicações que não sejam web.
+Singleton: serviços criados através do DI container. Geralmente é criado uma 
+única vez para o ciclo de vida completo da aplicação. O uso deve considerar 
+multi-threading e prevenir falhas de memória.
+
+4) Exemplifique uma situação onde versionamento de APIs pode ser aplicado.
+O versionamento de uma API pode ser aplicado quando da modificação de um atributo
+na API. Por exemplo: Remoção de um recurso que não está mais sendo utilizado. 
+Não havendo a mudança de versão os usuários podem estar ainda acessando um
+endpoint que não está mais disponível.
+
+5) Qual é funcionalidade do Swagger?
+A principal funcionalidade do Swagger é permitir 
+testar um endpoint da API diretamente na interface do usuário da documentação.
