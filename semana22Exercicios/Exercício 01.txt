@@ -1,0 +1,4 @@
+ORM significa "Object Relational Mapper", que é uma técnica de mapeamento 
+a qual permite que fazer um relacionamento entre os objetos e os dados
+que eles representam. Dessa forma é possível as classes da linguagem
+para o banco de dados.
