@@ -10,6 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ArtistaRepositorio>();
 builder.Services.AddScoped<AlbumRepositorio>();
+builder.Services.AddScoped<MusicaRepositorio>();
 
 var app = builder.Build();
 

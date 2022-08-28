@@ -1,4 +1,4 @@
-
+using System.ComponentModel.DataAnnotations;
 namespace ApiMusicas.Api.Models;
 
 public class Album
@@ -9,7 +9,7 @@ public class Album
     public string CapaUrl { get; set; }
     public Artista Artista { get; set; } 
 
-    public Album(string nome, int anoLancamento, string capaUrl, Artista artista)
+    public Album (string nome, int anoLancamento, string capaUrl, Artista artista)
     {
         Nome = nome;
         AnoLancamento = anoLancamento;
